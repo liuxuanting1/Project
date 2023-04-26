@@ -1,0 +1,20 @@
+/* pages/home/home.wxss */
+.home-container {
+    padding: 30rpx;
+}
+.swiper {
+    border-radius: 15rpx;
+    overflow: hidden;
+    height: 300rpx;
+}
+.swiper-item-img {
+    height: 100%;
+    width: 100%;
+}
+.grid-body {
+    margin: 30rpx 0rpx;
+}
+.hot-goods-list {
+    margin: 30rpx 0rpx;
+    clear: both;
+}

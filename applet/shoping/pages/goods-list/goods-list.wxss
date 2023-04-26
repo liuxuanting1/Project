@@ -1,0 +1,27 @@
+/* pages/goods-list/goods-list.wxss */
+.goods-title {
+    font-size: 30rpx;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display:-webkit-box;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:2;
+}
+.top-tabs {
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+}
+.goods-list-body {
+    margin-top: 90rpx;
+}
+.goods-num {
+    display: flex;
+    justify-content: space-between;
+}
+.goods-price {
+    color: red;
+    font-size: 30rpx;
+    font-weight: 600;
+}

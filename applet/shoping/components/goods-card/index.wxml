@@ -1,0 +1,7 @@
+<view class="goods-card">
+    <view class="goods-mainpic">
+        <image class="goods-image" src="{{mainPic}}"></image>
+    </view>
+    <view class="goods-price">￥{{price}}</view>
+    <view class="goods-title">{{title}}</view>
+</view>

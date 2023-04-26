@@ -1,0 +1,4 @@
+<view class="order-result-container">
+    <icon class="icon-img" type="success" size="93"></icon>
+    <view class="pay-result">付款成功！</view>
+</view>

@@ -1,0 +1,46 @@
+<view class="home-container">
+    <!-- 轮播 -->
+    <swiper
+        indicator-dots
+        autoplay
+        circular
+        indicator-color="#ccc"
+        indicator-active-color="#EA3F49"
+        class="swiper"
+    >
+        <swiper-item 
+            wx:for="{{swiperImages}}"
+            wx:key="index"
+            class="swiper-item">
+            <image 
+                src="{{item}}"
+                class="swiper-item-img"
+            ></image>
+        </swiper-item>
+    </swiper>
+    <!-- 宫格 -->
+    <van-grid class="grid-body" column-num="4">
+        <van-grid-item 
+            wx:for="{{gridObjs}}"
+            wx:key="index"
+            icon="{{item.icon}}" 
+            text="{{item.text}}" 
+            bindclick="onClickGrid"
+        />
+    </van-grid>
+    <van-divider contentPosition="center">
+        热销商品
+    </van-divider>
+    <!-- 商品列表 -->
+    <view class="hot-goods-list">
+        <goods-card 
+            wx:for="{{goodsData}}"
+            wx:key="index"
+            title="{{item.title}}"
+            price="{{item.price}}"
+            main-pic="{{item.smallPic}}"
+            bindtap="onClickGoods"
+            data-index="{{index}}"
+            ></goods-card>
+    </view>
+</view>

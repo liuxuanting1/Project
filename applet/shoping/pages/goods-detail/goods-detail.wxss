@@ -1,0 +1,28 @@
+/* pages/goods-detail/goods-detail.wxss */
+.goods-mainpic {
+    height: 680rpx;
+    width: 100%;
+}
+.goods-main-image {
+    height: 100%;
+    width: 100%;
+}
+.goods-price {
+    margin: 30rpx 0rpx;
+    box-sizing: border-box;
+    padding-left: 20rpx;
+    font-size: 50rpx;
+    color: red;
+}
+.goods-title {
+    margin-bottom: 30rpx;
+    box-sizing: border-box;
+    padding: 0rpx 20rpx;
+}
+.goods-detail-image {
+    width: 100%;
+}
+.star-icon-class {
+    font-size: 38rpx;
+    margin-bottom: 8rpx;
+}
