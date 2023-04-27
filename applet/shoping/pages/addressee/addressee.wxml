@@ -1,5 +1,6 @@
+<!--收货地址页面-->
 <view class="addressee-container">
-    <!-- 表单 -->
+    <!-- field表单组件库 -->
     <van-cell-group>
         <van-field
             value="{{name}}"
@@ -38,6 +39,7 @@
             取消
         </van-button>
     </view>
+    <!--弹出框组件-->
     <van-popup 
         show="{{showAreaList}}" 
         position="bottom"

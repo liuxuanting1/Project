@@ -1,3 +1,4 @@
+<!--订单信息页-->
 <view class="order-message-container">
     <!-- 商品信息 -->
     <view class="order-title">
@@ -5,6 +6,7 @@
         商品信息
     </view>
     <view class="goods-message">
+        <!--vant 商品卡片van-card-->
         <van-card
             thumb="{{goods.smallPic}}"
         >
@@ -53,7 +55,7 @@
             新增收货地址
         </van-button>
     </view>
-    <!-- 底部导航 -->
+    <!-- 提交的底部导航 -->
     <van-submit-bar
         price="{{goods.price * buyNum * 100}}"
         button-text="立即付款"

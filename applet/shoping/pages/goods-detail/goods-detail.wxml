@@ -12,7 +12,7 @@
             {{goods.title}}
         </view>
     </view>
-    <!-- 商品详情 -->
+    <!-- 商品详情 divider分隔线组件-->
     <van-divider contentPosition="center">
         商品详情
     </van-divider>
@@ -24,7 +24,7 @@
             class="goods-detail-image"
         />
     </view>
-    <!-- 底部导航 -->
+    <!-- goods-action底部导航 -->
     <van-goods-action>
         <van-goods-action-icon 
             icon="shop-o" 

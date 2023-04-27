@@ -1,5 +1,5 @@
 <view class="goods-list-container">
-    <!-- 排序按钮 -->
+    <!-- tabs排序组件按钮 -->
     <van-tabs 
         class="top-tabs"
         active="{{sort}}" 

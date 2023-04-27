@@ -1,4 +1,5 @@
 // pages/addressee/addressee.js
+//areaList全国重要城市地址
 import { areaList } from '@vant/area-data'
 Page({
     /**

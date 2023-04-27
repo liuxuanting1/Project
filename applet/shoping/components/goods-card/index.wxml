@@ -1,7 +1,9 @@
+<!--自定义组件-->
 <view class="goods-card">
     <view class="goods-mainpic">
         <image class="goods-image" src="{{mainPic}}"></image>
     </view>
     <view class="goods-price">￥{{price}}</view>
+    <!--goods-title 商品标题超过两行展示......-->
     <view class="goods-title">{{title}}</view>
 </view>
