@@ -3,7 +3,7 @@
  * @Date: 2022-02-24 14:30:47
  * @LastEditTime: 2022-02-27 17:20:12
  * @LastEditors: Liu Xuanting
- * @Description: 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+ * @Description: 打开koroFileHeader查看配置 
  * @FilePath: \DTSWeekly_zhyq\src\components\Icon\index.vue
 -->
 <template>

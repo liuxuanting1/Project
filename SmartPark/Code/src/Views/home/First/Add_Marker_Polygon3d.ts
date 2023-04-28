@@ -3,7 +3,7 @@
  * @Date: 2022-03-01 17:11:50
  * @LastEditTime: 2022-03-04 21:30:12
  * @LastEditors: Please set LastEditors
- * @Description: 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+ * @Description: 打开koroFileHeader查看配置 
  * @FilePath: \20220222_CGSY_FREEDO_DTSWEEKLY_YYFXXT\src\Views\home\First\addpoline.ts
  */
 
