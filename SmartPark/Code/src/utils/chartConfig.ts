@@ -1,8 +1,8 @@
 /*
- * @Author: your name
+ * @Author: Liu Xuanting
  * @Date: 2022-02-23 19:47:47
  * @LastEditTime: 2022-03-02 16:53:18
- * @LastEditors: your name
+ * @LastEditors: Liu Xuanting
  * @Description: 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  * @FilePath: \DTSWeekly_zhyq\src\utils\chartConfig.ts
  */

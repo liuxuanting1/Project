@@ -36,4 +36,4 @@
     能源管理
         告警中心
         数据分析
-技术：vue3、Element UI框架element-plus、echarts可视化库、turf高级地理空间分析工具、动画库animate、UI组件库ant-design-vue、模块化JavaScript标准库core-js、时间库dayjs、动画库gsap、cookie的jsAPI (js-cookie)、node-sass预处理器、javascript代码分析引擎tern、register-service-worker、qweather-icons、状态管理pinia
+技术：vue3、Element UI框架element-plus、UI组件库ant-design-vue、echarts可视化库、turf高级地理空间分析工具、动画库animate、模块化JavaScript标准库core-js、时间库dayjs、动画库gsap、cookie的jsAPI (js-cookie)、node-sass预处理器、javascript代码分析引擎tern、register-service-worker、qweather-icons、状态管理pinia
