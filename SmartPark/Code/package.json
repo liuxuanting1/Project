@@ -1,42 +1,63 @@
 {
-  "compilerOptions": {
-    "target": "esnext",
-    "module": "esnext",
-    "strict": true,
-    "jsx": "preserve",
-    "importHelpers": true,
-    "moduleResolution": "node",
-    "experimentalDecorators": true,
-    "skipLibCheck": true,
-    "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
-    "sourceMap": true,
-    "baseUrl": ".",
-    "types": [
-      "webpack-env",
-      "mocha",
-      "chai"
-    ],
-    "paths": {
-      "@/*": [
-        "src/*"
-      ]
-    },
-    "lib": [
-      "esnext",
-      "dom",
-      "dom.iterable",
-      "scripthost"
-    ]
+  "name": "vue3",
+  "version": "0.1.0",
+  "private": true,
+  "license": "ISC",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "test:unit": "vue-cli-service test:unit",
+    "test:e2e": "vue-cli-service test:e2e",
+    "lint": "vue-cli-service lint"
   },
-  "include": [
-    "src/**/*.ts",
-    "src/**/*.tsx",
-    "src/**/*.vue",
-    "tests/**/*.ts",
-    "tests/**/*.tsx"
-  ],
-  "exclude": [
-    "node_modules"
-  ]
+  "dependencies": {
+    "@element-plus/icons-vue": "^1.0.0",
+    "@turf/turf": "^6.5.0",
+    "@types/js-cookie": "^3.0.1",
+    "@types/lodash": "^4.14.179",
+    "animate.css": "^4.1.1",
+    "ant-design-vue": "^2.2.8",
+    "axios": "^0.24.0",
+    "core-js": "^3.6.5",
+    "dayjs": "^1.10.7",
+    "echarts": "^5.2.2",
+    "echarts-liquidfill": "^3.1.0",
+    "element-plus": "^1.2.0-beta.3",
+    "gsap": "^3.9.1",
+    "js-cookie": "^3.0.1",
+    "node-sass": "^4.12.0",
+    "pinia": "^2.0.4",
+    "qweather-icons": "^1.1.0",
+    "register-service-worker": "^1.7.1",
+    "sass-loader": "^8.0.2",
+    "tern": "^0.24.3",
+    "vue": "^3.0.0",
+    "vue-class-component": "^8.0.0-0",
+    "vue-dragging": "^1.1.0",
+    "vue-router": "^4.0.0-0",
+    "vue3-seamless-scroll": "^1.1.5",
+    "vuex": "^4.0.0-0"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.2.11",
+    "@types/mocha": "^5.2.4",
+    "@typescript-eslint/eslint-plugin": "^4.18.0",
+    "@typescript-eslint/parser": "^4.18.0",
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-e2e-cypress": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-pwa": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-plugin-typescript": "~4.5.0",
+    "@vue/cli-plugin-unit-mocha": "~4.5.0",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0",
+    "@vue/eslint-config-typescript": "^7.0.0",
+    "@vue/test-utils": "^2.0.0-0",
+    "chai": "^4.1.2",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^7.0.0",
+    "typescript": "~4.1.5"
+  }
 }
