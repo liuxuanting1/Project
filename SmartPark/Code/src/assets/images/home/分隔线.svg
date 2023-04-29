@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 9 29" class="design-iconfont">
+  <defs>
+    <linearGradient x1="50%" y1="0%" x2="50%" y2="98.8390516%" id="645l7k29fa">
+      <stop stop-color="#FFF" stop-opacity="0" offset="0%"/>
+      <stop stop-color="#FFF" offset="53.308543%"/>
+      <stop stop-color="#FFF" stop-opacity="0" offset="100%"/>
+    </linearGradient>
+    <filter x="-325%" y="-13%" width="750%" height="123.9%" filterUnits="objectBoundingBox" id="5ifarp0w5b">
+      <feGaussianBlur stdDeviation="1" in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="translate(-693 -28)" stroke="url(#645l7k29fa)" stroke-width="1.5" fill="none" fill-rule="evenodd">
+    <path d="M0.5 0L0.5 22.5" transform="translate(696 31)"/>
+    <path filter="url(#5ifarp0w5b)" d="M1.5 0L1.5 22.5" transform="translate(696 31)"/>
+  </g>
+</svg>

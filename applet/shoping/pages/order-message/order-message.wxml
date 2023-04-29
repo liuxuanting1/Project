@@ -1,0 +1,64 @@
+<!--订单信息页-->
+<view class="order-message-container">
+    <!-- 商品信息 -->
+    <view class="order-title">
+        <van-icon name="arrow-down" />
+        商品信息
+    </view>
+    <view class="goods-message">
+        <!--vant 商品卡片van-card-->
+        <van-card
+            thumb="{{goods.smallPic}}"
+        >
+            <view slot="title" class="goods-title">
+                {{goods.title}}
+            </view>
+            <view slot="num" class="goods-num">
+                <view class="goods-price">
+                    ￥{{goods.price}}
+                </view>
+                <view class="goods-sale">
+                    <van-stepper 
+                        value="{{buyNum}}" 
+                        bind:change="onBuyNumChange"
+                    />
+                </view>
+            </view>
+        </van-card>
+    </view>
+    <!-- 收货地址 -->
+    <view class="order-title">
+        <van-icon name="arrow-down" />
+        收货地址
+    </view>
+    <view 
+        wx:if="{{address.name && address.phone && address.city}}" 
+        class="address-message"
+    >
+        <van-cell title="{{address.name}}">
+            <view class="update-btn" bindtap="onUpdateAddress">
+                修改
+            </view>
+        </van-cell>
+        <view class="address-desc">
+            <view class="phone">{{address.phone}}</view>
+            <view class="city">{{address.city}}</view>
+        </view>
+    </view>
+    <view wx:else class="add-btn">
+        <van-button 
+            type="danger" 
+            round 
+            icon="plus"
+            bindtap="onPlusAddress"
+            >
+            新增收货地址
+        </van-button>
+    </view>
+    <!-- 提交的底部导航 -->
+    <van-submit-bar
+        price="{{goods.price * buyNum * 100}}"
+        button-text="立即付款"
+        bind:submit="onSubmit"
+        />
+</view>

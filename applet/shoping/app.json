@@ -1,0 +1,17 @@
+{
+  "pages":[
+      "pages/home/home",
+      "pages/goods-list/goods-list",
+      "pages/goods-detail/goods-detail",
+      "pages/order-message/order-message",
+      "pages/order-result/order-result",
+      "pages/addressee/addressee"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#EA3F49",
+    "navigationBarTitleText": "美妆商城",
+    "navigationBarTextStyle": "white"
+  },
+  "sitemapLocation": "sitemap.json"
+}

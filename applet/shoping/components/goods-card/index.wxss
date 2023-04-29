@@ -1,0 +1,36 @@
+/* components/goods-card/index.wxss */
+.goods-card {
+    width: 47%;
+    height: 450rpx;
+    margin: 20rpx 10rpx;
+    box-sizing: border-box;
+    padding: 15rpx;
+    border: 1px solid #eee;
+    box-shadow: 5rpx 5rpx 10rpx rgba(0, 0, 0, 0.08);
+    border-radius: 10rpx;
+    overflow: hidden;
+    float: left;
+}
+.goods-mainpic {
+    width: 100%;
+    height: 66%;
+}
+.goods-image {
+    width: 100%;
+    height: 100%;
+}
+.goods-price {
+    padding: 0px 10rpx;
+    margin: 15rpx 0rpx;
+    font-size: 35rpx;
+    color: #e4393c;
+}
+.goods-title {
+    padding: 0px 10rpx;
+    font-size: 25rpx;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display:-webkit-box;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:2;
+}

@@ -1,0 +1,34 @@
+<view class="goods-list-container">
+    <!-- tabs排序组件按钮 -->
+    <van-tabs 
+        class="top-tabs"
+        active="{{sort}}" 
+        bind:change="onSortChange"
+    >
+        <van-tab title="新品"></van-tab>
+        <van-tab title="销量"></van-tab>
+        <van-tab title="价格"></van-tab>
+    </van-tabs>
+    <!-- 商品列表 -->
+    <view class="goods-list-body">
+        <van-card
+            wx:for="{{goodsData}}"
+            wx:key="index"
+            thumb="{{item.smallPic}}"
+            bindtap="onClickCard"
+            data-index="{{index}}"
+        >
+            <view slot="title" class="goods-title">
+                {{item.title}}
+            </view>
+            <view slot="num" class="goods-num">
+                <view class="goods-price">
+                    ￥{{item.price}}
+                </view>
+                <view class="goods-sale">
+                    月销：{{item.sale}}
+                </view>
+            </view>
+        </van-card>
+    </view>
+</view>

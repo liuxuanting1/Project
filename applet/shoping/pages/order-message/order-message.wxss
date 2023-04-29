@@ -1,0 +1,33 @@
+/* pages/order-message/order-message.wxss */
+.order-message-container {
+    padding: 20rpx;
+}
+.order-title {
+    background-color: #eee;
+    line-height: 60rpx;
+    font-size: 25rpx;
+    box-sizing: border-box;
+    padding-left: 20rpx;
+    font-weight: 600;
+    margin: 20rpx 0rpx;
+}
+.goods-num {
+    display: flex;
+    justify-content: space-between;
+}
+.goods-price {
+    color: red;
+    font-size: 30rpx;
+    font-weight: 600;
+}
+.address-desc {
+    padding: 0rpx 30rpx;
+    font-size: 28rpx;
+    color: #888;
+}
+.update-btn {
+    color: #37f;
+}
+.add-btn {
+    text-align: center;
+}

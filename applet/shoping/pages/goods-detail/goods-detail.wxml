@@ -1,0 +1,49 @@
+<view class="goods-detail-container">
+    <!-- 主图 -->
+    <view class="goods-mainpic">
+        <image class="goods-main-image" src="{{goods.mainPic}}" />
+    </view>
+    <!-- 商品信息 -->
+    <view class="goods-msg">
+        <view class="goods-price">
+            ￥{{goods.price}}
+        </view>
+        <view class="goods-title">
+            {{goods.title}}
+        </view>
+    </view>
+    <!-- 商品详情 divider分隔线组件-->
+    <van-divider contentPosition="center">
+        商品详情
+    </van-divider>
+    <view class="goods-detail">
+        <image 
+            wx:for="{{goods.details}}"
+            wx:key="index"
+            src="{{item}}"
+            class="goods-detail-image"
+        />
+    </view>
+    <!-- goods-action底部导航 -->
+    <van-goods-action>
+        <van-goods-action-icon 
+            icon="shop-o" 
+            text="首页" 
+            bind:click="onBackHome" 
+        />
+        <van-goods-action-icon 
+            text="收藏" 
+            bind:click="onStarChange" 
+            class="star-icon"
+        >
+            <view slot="icon">
+                <van-icon 
+                    class="star-icon-class"
+                    name="{{star ? 'star':'star-o'}}" 
+                    color="#fb0" 
+                />
+            </view>
+        </van-goods-action-icon>
+        <van-goods-action-button text="立即购买" bind:click="onBuyGoods" />
+    </van-goods-action>
+</view>
