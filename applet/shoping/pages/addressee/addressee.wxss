@@ -1,0 +1,12 @@
+/* pages/addressee/addressee.wxss */
+.btns {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200rpx;
+}
+.van-button {
+    width: 500rpx;
+    margin-bottom: 20rpx;
+}
