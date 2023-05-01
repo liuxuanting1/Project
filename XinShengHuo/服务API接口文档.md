@@ -46,7 +46,7 @@ Status: 200 OK
         "title": "广告1", // 广告标题
         "type": "image", // 广告类型
         "data": { // 广告数据
-            "image": "http://plus.bai/api/v2/files/1", // 广告图片地址
+            "image": "http://ts.lagou.uieee.com/api/v2/files/1", // 广告图片地址
             "link": "http://www.baidu.com" // 广告链接
         },
         "sort": 2,
@@ -77,7 +77,7 @@ Status: 200 OK
         "title": "广告1", // 广告标题
         "type": "image", // 广告类型
         "data": { // 广告数据
-            "image": "http://plus.bai/api/v2/files/1", // 广告图片地址
+            "image": "http://ts.lagou.uieee.com/api/v2/files/1", // 广告图片地址
             "link": "http://www.baidu.com" // 广告链接
         },
         "sort": 2,
@@ -1313,7 +1313,7 @@ Status: 200 OK
             "location": "成都 中国",
             "created_at": "2022-06-02 08:43:54",
             "updated_at": "2022-07-25 03:59:39",
-            "avatar": "http://plus.io/api/v2/users/1/avatar",
+            "avatar": "http://ts.lagou.uieee.com/api/v2",
             "bg": "http://plus.io/storage/user-bg/000/000/000/01.png",
             "verified": null,
             "extra": {
@@ -1384,7 +1384,7 @@ Status: 200 OK
         "updated_at": "2022-07-25 03:59:39",
         "follwing": false,
         "follower": false,
-        "avatar": "http://plus.io/api/v2/users/1/avatar",
+        "avatar": "http://ts.lagou.uieee.com/api/v2",
         "bg": "http://plus.io/storage/user-bg/000/000/000/01.png",
         "verified": null,
         "extra": {
@@ -1605,7 +1605,7 @@ Status: 200 OK
         "updated_at": "2022-07-06 07:04:06",
         "following": false,
         "follower": false,
-        "avatar": "http://plus.io/api/v2/users/1/avatar",
+        "avatar": "http://ts.lagou.uieee.com/api/v2",
         "bg": null,
         "extra": {
             "user_id": 1,
@@ -1647,13 +1647,13 @@ Status: 204 No Content
 解除用户 Phone 绑定:
 
 ```
-DELETE /api/v2/user/phone
+DELETE /http://ts.lagou.uieee.com/api/v2/user/phone
 ```
 
 解除用户 E-Mail 绑定:
 
 ```
-DELETE /api/v2/user/email
+DELETE /http://ts.lagou.uieee.com/api/v2/user/email
 ```
 
 |      名称       |      类型       | 描述                     |
@@ -1723,7 +1723,7 @@ let forms = new FormData()
 forms.append('file',uni.getFileSystemManager().readFileSync(`filePath`))
 				
 await uni.request({
-		url: 'http://47.115.83.135/api/v2/files',
+		url: 'http://ts.lagou.uieee.com/api/v2/files',
 		method: "POST",
 		forms,
 		headers: {

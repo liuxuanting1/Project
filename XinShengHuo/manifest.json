@@ -119,7 +119,7 @@
             "proxy" : {
                 //使用代理
                 "/api" : {
-                    "target" : "http://47.115.83.135/api/v2",
+                    "target" : "http://ts.lagou.uieee.com/api/v2",
                     "changeOrigin" : true,
                     "pathRewrite" : {
                         "^/api" : ""
