@@ -59,8 +59,8 @@
 										<view class="u-line-2 feed-title" v-if="!!item.feed_content">{{ item.feed_content }}</view>
 										<view class="feed-info">
 											<view class="iview">
-												<image class="avatar" :src=" item.avatar" />
-												<text class="name u-line-1">{{ item.name }}</text>
+												<image class="avatar" :src=" item.user.avatar" />
+												<text class="name u-line-1">{{ item.user.name }}</text>
 											</view>
 											<view class="iview">
 												<view class="ilike" @tap.stop="clickLove(item)">
@@ -267,6 +267,7 @@
 			async getFeedsList() {
 				let feeds = await this.$u.api.getFeeds();
 				console.log(feeds);
+				console.log(feeds.data.feeds);
 				let feedList = feeds.data.feeds.map(item => {
 					return {
 						...item,

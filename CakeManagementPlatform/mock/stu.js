@@ -1,8 +1,16 @@
-//提供学员相关逻辑mock接口
+/*
+ * @Description: 
+ * @Version: 2.0
+ * @Author: Liu Xuanting
+ * @Date: 2023-04-29 20:10:17
+ * @LastEditors: Liu Xuanting
+ * @LastEditTime: 2023-05-02 00:13:13
+ */
+//提供配送员相关逻辑mock接口
 import mockjs from 'mockjs'
 let datalist = mockjs.mock({
   code:200,
-  msg:'学员列表加载成功',
+  msg:'配送员列表加载成功',
   'results|100':[
     {
       'objectId|+1':1,

@@ -35,12 +35,12 @@ export default [ //配置式路由
       {
         path:'/stu/list',
         component:'@/pages/stu/list',
-        name:'学员列表'
+        name:'配送员列表'
       },
       {
         path:'/stu/pub',
         component:'@/pages/stu/pub',
-        name:'学员录入'
+        name:'配送员录入'
       }
     ]
   },

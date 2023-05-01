@@ -1,3 +1,11 @@
+/*
+ * @Description: 
+ * @Version: 2.0
+ * @Author: Liu Xuanting
+ * @Date: 2023-04-29 20:10:17
+ * @LastEditors: Liu Xuanting
+ * @LastEditTime: 2023-05-02 00:14:00
+ */
 import React,{useState,useEffect} from 'react'
 import { Table, Tag, Space,Button } from 'antd';
 import {stuGet,stuDel} from '@/api/stu'
@@ -25,7 +33,7 @@ export default function StuList() {
       render: text => <a>{text}</a>,
     },
     {
-      title: '分数',
+      title: '评分',
       dataIndex: 'score',
       key: 'score',
     },
@@ -35,7 +43,7 @@ export default function StuList() {
       key: 'city',
     },
     {
-      title: '生日',
+      title: '最近配送时间',
       key: 'time',
       dataIndex: 'time'
     },
