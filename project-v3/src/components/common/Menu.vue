@@ -13,7 +13,7 @@
         router
         :default-active="activePath"
         class="el-menu-vertical-demo"
-        background-color="#2578b5"
+        background-color="#38434a"
         text-color="#fff"
         active-text-color="#ffd04b">
         <template v-for="(item, index) in menus">
