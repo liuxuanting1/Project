@@ -22,7 +22,7 @@ export default {
 <style lang="less" scoped>
 .header {
     .el-header {
-        background: #2578b5;
+        background: #495b67;
         color: #fff;
         line-height: 60px;
         display: flex;
