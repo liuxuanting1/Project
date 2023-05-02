@@ -29,9 +29,9 @@
       </el-table-column>
       <el-table-column prop="age" label="年龄" align="center">
       </el-table-column>
-      <el-table-column prop="number" label="学号" align="center">
+      <el-table-column prop="number" label="工号" align="center">
       </el-table-column>
-      <el-table-column prop="class" label="班级" align="center">
+      <el-table-column prop="class" label="部门" align="center">
       </el-table-column>
       <el-table-column prop="state_text" label="状态" align="center">
       </el-table-column>
@@ -113,10 +113,10 @@ export default {
             // 尽量不要修改原数据
             item.sex === 1 ? (item.sex_text = "男") : (item.sex_text = "女");
             item.state === "1"
-              ? (item.state_text = "已入学")
+              ? (item.state_text = "已入职")
               : item.state === "2"
-              ? (item.state_text = "未入学")
-              : (item.state_text = "休学中");
+              ? (item.state_text = "未入职")
+              : (item.state_text = "已离职");
           });
         }
       });

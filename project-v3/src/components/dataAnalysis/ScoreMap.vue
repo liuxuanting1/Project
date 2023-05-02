@@ -14,8 +14,8 @@ export default {
     this.$echarts.registerMap("china", chinaJson);
 
     // 从这里开始复制示例的代码
-    var name_title = "中国人民大学2017年各省市计划录取人数";
-    var subname = "数据爬取自千栀网\n，\n上海、浙江无文理科录取人数";
+    var name_title = "公司各省市计划录取人数";
+    var subname = "人数";
     var nameColor = " rgb(55, 75, 113)";
     var name_fontFamily = "等线";
     var subname_fontSize = 15;

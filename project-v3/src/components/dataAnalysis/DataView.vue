@@ -1,3 +1,11 @@
+<!--
+ * @Description: 
+ * @Version: 2.0
+ * @Author: Liu Xuanting
+ * @Date: 2023-05-02 18:53:13
+ * @LastEditors: Liu Xuanting
+ * @LastEditTime: 2023-05-02 19:08:01
+-->
 <template>
     <div class="data-view">
         <el-card>
@@ -50,11 +58,11 @@ export default {
         let myChart = this.$echarts.init(document.getElementById('main1'))
         myChart.setOption({
             title: {
-                text: '大佬进阶班'
+                text: '管理'
             },
             tooltip: {},
             xAxis: {
-                data: ['一班', '二班', '三班', '四班', '五班', '六班']
+                data: ['一级', '二级', '三级', '四级', '五级', '六级']
             },
             yAxis: {},
             series: [{

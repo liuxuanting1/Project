@@ -16,13 +16,13 @@
       </el-table-column>
       <el-table-column prop="age" label="年龄" align="center">
       </el-table-column>
-      <el-table-column prop="father" label="父亲" align="center">
+      <el-table-column prop="father" label="上级" align="center">
       </el-table-column>
-      <el-table-column prop="mather" label="母亲" align="center">
+      <el-table-column prop="mather" label="下级" align="center">
       </el-table-column>
       <el-table-column prop="address" label="家庭住址" align="center">
       </el-table-column>
-      <el-table-column prop="time" label="入校时间" align="center">
+      <el-table-column prop="time" label="入职时间" align="center">
       </el-table-column>
       <el-table-column prop="phone" label="联系方式" align="center">
       </el-table-column>
@@ -43,7 +43,7 @@
         </template>
       </el-table-column>
     </el-table>
-    <el-dialog :title="state ? '添加学生信息' : '修改学生信息'" :visible.sync="dialogFormVisible" width="500px">
+    <el-dialog :title="state ? '添加管理员信息' : '修改管理员信息'" :visible.sync="dialogFormVisible" width="500px">
       <el-form :model="form" :rules="rules" ref="form">
         <el-form-item label="姓名" :label-width="formLabelWidth" prop="name">
           <el-input v-model="form.name" autocomplete="off"></el-input>
@@ -55,16 +55,16 @@
         <el-form-item label="年龄" :label-width="formLabelWidth" prop="age">
           <el-input v-model="form.age" autocomplete="off"></el-input>
         </el-form-item>
-        <el-form-item label="父亲姓名" :label-width="formLabelWidth" prop="father">
+        <el-form-item label="夏季姓名" :label-width="formLabelWidth" prop="father">
           <el-input v-model="form.father" autocomplete="off"></el-input>
         </el-form-item>
-        <el-form-item label="母亲姓名" :label-width="formLabelWidth" prop="mather">
+        <el-form-item label="上级姓名" :label-width="formLabelWidth" prop="mather">
           <el-input v-model="form.mather" autocomplete="off"></el-input>
         </el-form-item>
         <el-form-item label="家庭住址" :label-width="formLabelWidth" prop="address">
           <el-input v-model="form.address" autocomplete="off"></el-input>
         </el-form-item>
-        <el-form-item label="入校时间" :label-width="formLabelWidth" prop="time">
+        <el-form-item label="入职时间" :label-width="formLabelWidth" prop="time">
             <el-date-picker
                 v-model="form.time"
                 format="yyyy 年 MM 月 dd 日"
@@ -109,7 +109,7 @@ export default {
         sex: [{required: true}],
         age: [{required: true, message: '请输入年龄'}],
         address: [{required: true, message: '请输入地址'}],
-        time: [{required: true, message: '请输入入学时间'}],
+        time: [{required: true, message: '请输入入职时间'}],
         phone: [{required: true, message: '请输入联系方式'}]
       },
       state: true,
