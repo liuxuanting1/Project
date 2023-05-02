@@ -1,7 +1,7 @@
 <template>
   <div>
     <header>
-      <h1>千锋教育--大数据可视化</h1>
+      <h1>大数据可视化</h1>
     </header>
     <!-- 大容器 -->
     <section class="container">
